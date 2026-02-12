@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Royal Travels</title>
+ <style>
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: purple;
+            color:white;
+            padding: 15px;
+            text-align: center;
+        }
+ nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+nav a:hover {
+            color: orange;
+        }
+        .one {
+            background-image: url("https://png.pngtree.com/background/20250119/original/pngtree-purple-mountain-range-at-sunset-background-stock-photo-picture-image_16103147.jpg");
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+      .one h1 {
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            padding: 20px;
+            animation: fadein 2s;
+        }
+       @keyframes fadein {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .two {
+            padding: 20px;
+            text-align: center;
+        }
+        .three {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .four {
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+            padding: 10px;
+            transition: transform 0.3s;
+        }
+        .four:hover {
+            transform: translateY(-10px);
+        }
+        .four img {
+            width: 100%;
+            border-radius: 10px;
+       }
+       .packages {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .package{
+            border: 2px solid purple;
+            padding: 20px;
+            width: 200px;
+            border-radius: 10px;
+        }
+    .best {
+            border-color: orange;
+            background-color: #fff3e0;
+        }
+      button {
+            background-color: purple;
+            border: none;
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: orange;
+        }
+       footer {
+            background-color: purple;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+ </style>
+</head>
+<body>
+<header>
+    <h2>Royal Travels</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Destinations</a>
+        <a href="#">Packages</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+<div class="one">
+    <h1>Collect Moments, Not Things</h1>
+</div>
+<div class="two">
+    <h2>Popular Destinations</h2>
+ <div class="three">
+        <div class="four">
+            <img src="https://i.pinimg.com/736x/9d/45/01/9d4501ac890b6a87be05f6a08b41ecce.jpg">
+            <h3>Paris</h3>
+            <p>City of love and lights</p>
+        </div>
+        <div class="four">
+            <img src="https://lostontheroute.com/wp-content/uploads/2020/02/Pura-Lempuyang-Bali.jpg">
+            <h3>Bali</h3>
+            <p>Beautiful beaches and nature</p>
+        </div>
+       <div class="four">
+            <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_742,h_1024/https://blog.unimonitravel.com/wp-content/uploads/2022/08/dubai-m-742x1024.webp">
+            <h3>Dubai</h3>
+            <p>Luxury and modern city</p>
+        </div>
+    </div>
+</div>
+<div class="two">
+    <center>
+    <h2>Travel Packages</h2>
+   <div class="Packages">
+        <div class="package">
+            <h3>Basic</h3>
+            <p>₹30,000</p>
+            <button>Book Now</button>
+        </div>
+          <div class="package best">
+            <h3>Premium</h3>
+            <p>₹50,000</p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="package">
+            <h3>Luxury</h3>
+            <p>₹90,000</p>
+            <button>Book Now</button>
+        </div>
+    </div>
+</div>
+</center>
+<footer>
+    <p>Contact: +91 98765 43210 | Royal@travel.com</p>
+    <p>Follow us on Facebook | Instagram | X</p>
+</footer>
+</body>
+</html>
